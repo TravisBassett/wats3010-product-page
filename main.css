@@ -1,8 +1,16 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
+/*adding padding to top of body to clear nav-bar*/
 body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: green;
+    padding-top: 60px;
+}
+/*end adding padding*/
+
+.format{
+    margin: 3rem auto;
+    width: 75%;
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius: 10px;
 }
