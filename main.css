@@ -14,3 +14,12 @@ body {
     border: 1px solid black;
     border-radius: 10px;
 }
+
+.watch{
+    text-align: center;
+}
+
+.formatvideo {
+	margin: 0 auto;
+	border: 10px outset #ddd;
+}
