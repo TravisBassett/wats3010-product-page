@@ -7,6 +7,7 @@ body {
 }
 /*end adding padding*/
 
+/* formating and applying border to embedded video */
 .format{
     margin: 3rem auto;
     width: 75%;
@@ -19,16 +20,27 @@ body {
 	margin: 0 auto;
 	border: 10px outset #ddd;
 }
+/*end formatting video*/
 
+/* centering elements */
 h2, .watch{
     text-align:center;
 }
+/* end centering elments */
  
-.social links{
-    display: inline-block;
-}
-
+/*applying flex centering to call to action button*/
 .thebutton{
   display: flex;
   justify-content: center;
 }
+/*end button styling*/
+
+/*centering social links, displaying horizontally*/
+.social-links{
+    text-align: center;
+}
+
+.social-links li{
+    display: inline-block;
+}
+/* end social link styling */
