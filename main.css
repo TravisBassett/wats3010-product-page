@@ -15,11 +15,20 @@ body {
     border-radius: 10px;
 }
 
-.watch{
-    text-align: center;
-}
-
 .formatvideo {
 	margin: 0 auto;
 	border: 10px outset #ddd;
+}
+
+h2, .watch{
+    text-align:center;
+}
+ 
+.social links{
+    display: inline-block;
+}
+
+.thebutton{
+  display: flex;
+  justify-content: center;
 }
