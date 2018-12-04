@@ -44,3 +44,11 @@ h2, .watch{
     display: inline-block;
 }
 /* end social link styling */
+
+/* formatting footer content */
+.footer-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/*footer content formatted*/
