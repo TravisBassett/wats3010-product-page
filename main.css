@@ -61,3 +61,19 @@ h2, .watch{
   width
 }
 /*end contact content styling*/
+
+/*removes company icon when screen size is too small to display it correctly*/
+@media screen and (max-width: 587px) {
+  .icona {
+    display: none;
+  }
+  }
+/* end removing company icon for small screens */
+
+/*resized contact card to display properly for smaller screens*/
+@media screen and (max-width: 886px) {
+  .contact-area {
+    
+  }
+  }
+/* end resizing contact card for smaller screen */
