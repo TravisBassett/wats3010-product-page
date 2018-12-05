@@ -52,3 +52,11 @@ h2, .watch{
     justify-content: space-between;
 }
 /*footer content formatted*/
+
+/*applying flex centering to content of contact section*/
+/*.contact-area{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}*/
+/*end contact content styling*/
