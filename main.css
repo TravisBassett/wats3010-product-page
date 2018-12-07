@@ -79,18 +79,27 @@ h2, .watch{
   .icona {
     display: none;
   }
-  .social-links{
-      font-size: 20px;
+  .myfacebook, .mytwitter, .myinstagram {
+      font-size: 30px;
+      color: red;
   }
   }
 /* end removing company icon for small screens */
 
+  .myfacebook{
+      font-size:80px;
+      color:#3B5998;
+  }
+  .myinstagram{
+      font-size:80px;
+      color:#BD081C;
+  }
+  .mytwitter{
+      font-size:80px;
+      color:#1DA1F2;
+  }
+
 /*resized contact card to display properly for smaller screens*/
-@media screen and (max-width: 886px) {
-  .contact-area {
-    
-  }
-  }
 /* end resizing contact card for smaller screen */
 
 /* adding padding to top of sections so nav-bar doesn't block when internal links are clicked */
