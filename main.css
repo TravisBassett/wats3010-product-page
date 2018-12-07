@@ -77,3 +77,9 @@ h2, .watch{
   }
   }
 /* end resizing contact card for smaller screen */
+
+/* adding padding to top of sections so nav-bar doesn't block when internal links are clicked */
+.watch, .testimonials, .features, .contact-area-pad, .social-pad, .thebutton{
+    padding-top: 50px;
+}
+/* end padding at top of sections */
