@@ -1,6 +1,12 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
+/*background color*/
+body {
+    background-color: cyan;
+    }
+/*background color end*/
+
 /* applying font */
 h2, p, *{
     font-family: 'IBM Plex Serif', serif;
@@ -20,6 +26,7 @@ body {
     padding: 2rem;
     border: 1px solid black;
     border-radius: 10px;
+    background-color: white;
 }
 
 .formatvideo {
@@ -64,7 +71,6 @@ h2, .watch{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width
 }
 /*end contact content styling*/
 
@@ -72,6 +78,9 @@ h2, .watch{
 @media screen and (max-width: 587px) {
   .icona {
     display: none;
+  }
+  .social-links{
+      font-size: 20px;
   }
   }
 /* end removing company icon for small screens */
