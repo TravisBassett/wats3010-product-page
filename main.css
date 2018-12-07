@@ -1,6 +1,12 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
+/* applying font */
+h2, p, *{
+    font-family: 'IBM Plex Serif', serif;
+}
+/* end applying font */
+
 /*adding padding to top of body to clear nav-bar*/
 body {
     padding-top: 60px;
