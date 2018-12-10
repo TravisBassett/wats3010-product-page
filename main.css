@@ -86,6 +86,19 @@ h2, .watch{
   }
 /* end removing company icon for small screens */
 
+/*alter border on very small screen*/
+@media screen and (max-width: 400px) {
+.format{
+    margin: 1rem auto;
+    width: 90%;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+  }
+/*end alter border*/
+
   .myfacebook{
       font-size:80px;
       color:#3B5998;
