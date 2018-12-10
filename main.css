@@ -75,7 +75,7 @@ h2, .watch{
 /*end contact content styling*/
 
 /*removes company icon when screen size is too small to display it correctly*/
-@media screen and (max-width: 587px) {
+@media screen and (max-width: 748px) {
   .icona {
     display: none;
   }
